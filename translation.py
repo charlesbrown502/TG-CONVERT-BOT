@@ -5,9 +5,11 @@ class Translation(object):
 
       START = """Hello {0}
 
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
+I'm Powerful Media Converter Bot
 
 I can convert file to video or video to file with custom thumbnail support.
+
+Made with  by @XZ_Bots
 """
 
 
@@ -23,7 +25,7 @@ I can convert file to video or video to file with custom thumbnail support.
 
 4. Reply to file /converttovideo for converting into video.
 
-**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
+**SUPPORT:** [XZ Bots Support](https://telegram.dog/XZ_SupportBot)
 """
 
 
@@ -34,44 +36,10 @@ I can convert file to video or video to file with custom thumbnail support.
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
+**📮 Channel:** [XZ Bots Updates](https://t.me/xz_bots)
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
-
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
-
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)
-
+**👥 Support:** [XZ Bots Support](https://t.me/xz_supportbot)
 """
-
-####################################################################################################################################################
-####################################################################################################################################################
-
-
-
-#If you set the password for the bot if anyone use the bot without logging in this text will appear
-
-      NOT_LOGGED_TEXT = """ This bot was a private bot you need to login using the password.
-For logging in use command <code>/login BotPassword</code>. And then use me 🥰"""
-
-
-#This will be sent to the user when the user logged successfully
-
-      SUCESS_LOGIN = """You are successfully logged in. So you can use me for today.
-You access will be revoke by tomorrow"""
-
-
-# This will be show when an user send wrong password
-
-      WRONG_PWD = """This is a wrong password 🔐 please try with correct password"""
-
-
-# This will appear if the user is already logged
-
-      EXISTING_USER = "You are already logged in you can use me"
-
-####################################################################################################################################################
-####################################################################################################################################################
 
 
 #DON'T CHANGE THE NUMBERS IN THE FLOWER BRACKETS AND THE ORDER OF PERCENTAGE, DONE, TOTAL, SPEED, ETA ONLY CHANGE THE THEME 
@@ -86,10 +54,6 @@ ETA 🕰: {4}
        
       DOWNLOAD_PROGRESS = "▪️"
       UPLOAD_PROGRESS = "▫️"
-
-####################################################################################################################################################
-####################################################################################################################################################
-
 
 
       DOWNLOAD_START = "Trying to Download 📥"
