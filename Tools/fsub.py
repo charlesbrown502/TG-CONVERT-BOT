@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram import Client, Filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from config import Config
