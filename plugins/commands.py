@@ -8,7 +8,6 @@ from config import Config
 from pyrogram import Client, Filters, InlineKeyboardButton, InlineKeyboardMarkup
 from translation import Translation
 from Tools.Download import download
-#from Tools import fsub
 
 
 @Client.on_message(Filters.private & Filters.command(["start"]))
