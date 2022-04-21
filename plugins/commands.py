@@ -37,7 +37,7 @@ async def about(c, m):
                          reply_to_message_id=m.message_id,
                          parse_mode="markdown")
 
-@Client.on_message(Filters private & Filters.command(["converttovideo"]))
+@Client.on_message(Filters.private & Filters.command(["converttovideo"]))
 async def video(c, m):
     if m.reply_to_message is not None:
         await download(c, m)
