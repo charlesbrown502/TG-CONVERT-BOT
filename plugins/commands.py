@@ -46,7 +46,7 @@ async def video(c, m):
 
 @Client.on_message(Filters.private & Filters.command(["converttofile"]))
 async def file(c, m):
-  if m.reply_to_message is not None:
+    if m.reply_to_message is not None:
         await download(c, m)
     else:
         await c.send_message(chat_id=m.chat.id, text=Translation.REPLY_TEXT)
