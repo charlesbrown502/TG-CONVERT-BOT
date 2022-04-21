@@ -12,4 +12,4 @@ COPY . .
 
 RUN pip install -U -r requirements.txt
 
-CMD [ "python3", "bot.py" ]
+CMD [ "bash", "start.sh" ]
